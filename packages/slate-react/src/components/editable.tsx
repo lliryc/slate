@@ -1529,7 +1529,7 @@ export const Editable = forwardRef(
                         editor.children[
                           selection !== null ? selection.focus.path[0] : 0
                         ]
-                      const isRTL = getDirection(Node.string(element)) === 'rtl'
+                      const isRTL = true
 
                       // COMPAT: Since we prevent the default behavior on
                       // `beforeinput` events, the browser doesn't think there's ever
